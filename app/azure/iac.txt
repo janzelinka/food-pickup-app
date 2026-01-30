@@ -1,0 +1,6 @@
+# create resource group
+#az group create --name PBChlebickyRG --location westeurope --subscription afa81de9-72b9-4d4b-82a5-b55008bcde67
+# deploy infrastructure
+#az deployment group create --resource-group PBChlebickyRG --template-file azure/main.bicep
+# ssh
+az ad sp create-for-rbac --name github-actions-appservice --role contributor --scopes /subscriptions/afa81de9-72b9-4d4b-82a5-b55008bcde67 --sdk-auth
