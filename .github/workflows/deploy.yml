@@ -33,22 +33,22 @@ jobs:
       - name: Install Composer dependencies
         run: |
           az webapp ssh \
-            --resource-group my-resource-group \
-            --name my-laravel-app \
+            --resource-group PBChlebickyRG \
+            --name pb-chlebicky-awgfndh6byiqq \
             --command "cd /home/site/wwwroot && composer install --no-dev --optimize-autoloader --no-interaction"
 
       # 5. Run Laravel migrations
       - name: Run Laravel migrations
         run: |
           az webapp ssh \
-            --resource-group my-resource-group \
-            --name my-laravel-app \
+            --resource-group PBChlebickyRG \
+            --name pb-chlebicky-awgfndh6byiqq \
             --command "cd /home/site/wwwroot && php artisan migrate --force"
 
       # 6. Optimize Laravel
       - name: Optimize Laravel
         run: |
           az webapp ssh \
-            --resource-group my-resource-group \
-            --name my-laravel-app \
+            --resource-group PBChlebickyRG \
+            --name pb-chlebicky-awgfndh6byiqq \
             --command "cd /home/site/wwwroot && php artisan config:clear && php artisan config:cache && php artisan route:cache"
