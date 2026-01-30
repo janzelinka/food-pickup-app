@@ -24,7 +24,7 @@ jobs:
       # 3. Install Composer dependencies (locally in CI)
       - name: Install Composer dependencies
         run: |
-          composer install \
+          cd app && composer install \
             --no-dev \
             --optimize-autoloader \
             --no-interaction
