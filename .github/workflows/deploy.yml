@@ -33,7 +33,7 @@ jobs:
       - name: Azure Login
         uses: azure/login@v2
         with:
-          creds: ${{ secrets.AZURE_CREDENTIALS }}
+          creds: ${{ secrets.AZ_CREDENTIALS }}
 
       # 5. Deploy built app (with vendor/)
       - name: Deploy to Azure App Service
