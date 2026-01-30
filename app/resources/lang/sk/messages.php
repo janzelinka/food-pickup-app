@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'home' => 'Domov',
+    'menu' => 'Menu',
+    'contact' => 'Kontakt',
+    'cart' => 'Košík',
+    'login' => 'Prihlásiť sa',
+    'logout' => 'Odhlásiť sa',
+    'users' => 'Používatelia',
+    'welcome' => 'Vitajte v Gourmet Pickup',
+    'fresh_local' => 'Čerstvé a lokálne.',
+    'hero_title' => 'Čerstvé jedlo, vyrobené s láskou',
+    'hero_subtitle' => 'Objednajte si online a vyzdvihnite si čerstvé jedlo podľa vašich potrieb.',
+    'browse_menu' => 'Prezrieť menu',
+    'about_chef' => 'O šéfkuchárovi',
+    'contact_us' => 'Kontaktujte nás',
+    'find_us' => 'KDE NÁS NÁJDETE',
+    'how_to_reach' => 'Ako sa k nám dostanete',
+    'reach_description' => 'Naša výrobná prevádzka sa nachádza na sídlisku Hliny v budove Hant. Vstup je zo strany od Prečína, t.j. z opačnej strany budovy ako vchod do potravín Jednota, ktoré sa tiež nachádzajú v tejto budove.',
+    'contact_info' => 'Kontaktné informácie',
+    'address' => 'Hliny 1412, 017 07 Považská Bystrica',
+    'opening_hours' => 'Otváracie hodiny',
+    'hours_detail' => 'Po-Ne 0.00-24.00 Výroba a výdaj podľa prijatých objednávok',
+];

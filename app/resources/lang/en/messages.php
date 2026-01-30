@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'home' => 'Home',
+    'menu' => 'Menu',
+    'contact' => 'Contact',
+    'cart' => 'Cart',
+    'login' => 'Login',
+    'logout' => 'Logout',
+    'users' => 'Users',
+    'welcome' => 'Welcome to Gourmet Pickup',
+    'fresh_local' => 'Fresh & Local.',
+    'hero_title' => 'Fresh Food, Made with Love',
+    'hero_subtitle' => 'Order online and pick up fresh at your convenience.',
+    'browse_menu' => 'Browse Menu',
+    'about_chef' => 'About the Chef',
+    'contact_us' => 'Contact Us',
+    'find_us' => 'KDE NÁS NÁJDETE / FIND US',
+    'how_to_reach' => 'Ako sa k nám dostanete / How to reach us',
+    'reach_description' => 'Naša výrobná prevádzka sa nachádza na sídlisku Hliny v budove Hant. Vstup je zo strany od Prečína, t.j. z opačnej strany budovy ako vchod do potravín Jednota, ktoré sa tiež nachádzajú v tejto budove. / Our production facility is located in the Hliny housing estate in the Hant building. The entrance is from the side of Prečín, i.e. from the opposite side of the building as the entrance to the Jednota grocery store, which is also located in this building.',
+    'contact_info' => 'Kontaktné informácie / Contact information',
+    'address' => 'Hliny 1412, 017 07 Považská Bystrica',
+    'opening_hours' => 'Otváracie hodiny / Opening hours',
+    'hours_detail' => 'Po-Ne 0.00-24.00 Výroba a výdaj podľa prijatých objednávok / Mon-Sun 0.00-24.00 Production and pickup based on received orders',
+];
