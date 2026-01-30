@@ -48,4 +48,4 @@ jobs:
           az webapp ssh \
             --resource-group PBChlebickyRG \
             --name pb-chlebicky-awgfndh6byiqq \
-            --command "cd /home/site/wwwroot && php artisan migrate --force"
+            --command "cd /home/site/wwwroot/app && php artisan migrate --force"
