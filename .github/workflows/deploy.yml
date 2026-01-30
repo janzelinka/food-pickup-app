@@ -25,7 +25,7 @@ jobs:
       - name: Deploy to Azure App Service
         uses: azure/webapps-deploy@v3
         with:
-          app-name: my-laravel-app
+          app-name: pb-chlebicky-awgfndh6byiqq
           slot-name: production
           package: .
 
