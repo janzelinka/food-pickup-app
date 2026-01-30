@@ -29,6 +29,12 @@ jobs:
           slot-name: production
           package: .
 
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.2"
+          tools: composer
+
       # 4. Install Composer dependencies via SSH
       - name: Install Composer dependencies
         run: |
