@@ -35,7 +35,7 @@ jobs:
           az webapp ssh \
             --resource-group PBChlebickyRG \
             --name pb-chlebicky-awgfndh6byiqq \
-            --command "cd /home/site/wwwroot && composer install --no-dev --optimize-autoloader --no-interaction"
+            --command "cd /home/site/wwwroot/app && composer install --no-dev --optimize-autoloader --no-interaction"
 
       # 5. Run Laravel migrations
       - name: Run Laravel migrations
